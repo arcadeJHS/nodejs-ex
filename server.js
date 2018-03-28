@@ -20,4 +20,3 @@ function bootstrap() {
     });
 }
 bootstrap();
-//# sourceMappingURL=main.js.map
