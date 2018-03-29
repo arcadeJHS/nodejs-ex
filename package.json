@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "echo 'test'",
+    "dev": "nodemon",
     "prestart": "rm -rf dist && tsc",
     "start": "node dist/main.js"
   },
@@ -24,6 +25,7 @@
     "@types/jest": "^21.1.8",
     "@types/node": "^9.3.0",
     "@types/supertest": "^2.0.4",
+    "nodemon": "^1.14.1",
     "prettier": "^1.11.1",
     "ts-node": "^4.1.0",
     "tsconfig-paths": "^3.1.1",
