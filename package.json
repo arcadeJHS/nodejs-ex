@@ -5,7 +5,6 @@
   "license": "MIT",
   "scripts": {
     "test": "echo 'test'",
-    "dev": "nodemon",
     "prestart": "rm -rf dist && tsc",
     "start": "node dist/main.js"
   },
