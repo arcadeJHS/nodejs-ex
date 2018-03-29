@@ -14,8 +14,13 @@ let users: User[] = [
 @Controller('pagecount')
 export class AppController {
   @Get()
+  /*
   root(): User[] {
     return users;
+  }
+  */
+  root(): any {
+    return { pageCount: -1 };
   }
 };
  
