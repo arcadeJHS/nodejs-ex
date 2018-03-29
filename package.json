@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test": "echo 'test'",
-    "prestart": "rm -rf dist && tsc",
-    "start": "node dist/server.js"
+    "start": "tsc && node dist/server.js"
   },
   "dependencies": {
     "@nestjs/common": "^4.5.9",
