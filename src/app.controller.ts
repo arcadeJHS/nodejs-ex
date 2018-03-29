@@ -8,7 +8,8 @@ type User = {
 let users: User[] = [
   {id: 1, name: 'Jack x'},
   {id: 2, name: 'John x'},
-  {id: 3, name: 'Lara x'}
+  {id: 3, name: 'Lara x'},
+  {id: 4, name: 'KJ x'}
 ];
 
 @Controller('api/users')
