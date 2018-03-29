@@ -1,4 +1,4 @@
-import { Get, Controller } from '@nestjs/common';
+import { HttpCode, Get, Controller } from '@nestjs/common';
 
 type User = {
   id: number;
@@ -13,6 +13,7 @@ let users: User[] = [
 
 @Controller('pagecount')
 export class AppController {
+  @HttpCode(200)
   @Get()
   /*
   root(): User[] {
