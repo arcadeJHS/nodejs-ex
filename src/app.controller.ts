@@ -11,17 +11,11 @@ let users: User[] = [
   {id: 3, name: 'Lara'}
 ];
 
-@Controller('pagecount')
+@Controller('api/users')
 export class AppController {
   @HttpCode(200)
   @Get()
-  /*
   root(): User[] {
     return users;
   }
-  */
-  root(): any {
-    return { pageCount: -1 };
-  }
 };
- 
