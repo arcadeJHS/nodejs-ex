@@ -4,8 +4,9 @@
   "description": "Nest TypeScript starter repository",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node -r tsconfig-paths/register src/server.ts",
-    "test": "echo 'test'"
+    "test": "echo 'test'",
+    "prestart": "rm -rf dist && tsc",
+    "start": "node dist/server.js"
   },
   "dependencies": {
     "@nestjs/common": "^4.5.9",

@@ -6,6 +6,6 @@ var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  await app.listen(port);
+  await app.listen(port, ip);
 }
 bootstrap();
