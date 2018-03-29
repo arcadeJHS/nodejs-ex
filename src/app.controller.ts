@@ -11,7 +11,7 @@ let users: User[] = [
   {id: 3, name: 'Lara'}
 ];
 
-@Controller('api/users')
+@Controller('pagecount')
 export class AppController {
   @Get()
   root(): User[] {
