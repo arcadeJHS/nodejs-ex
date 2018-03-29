@@ -8,6 +8,7 @@
     "prestart": "tsc",
     "start": "node dist/server.js"
   },
+  "main": "dist/server.js",
   "dependencies": {
     "@nestjs/common": "^4.5.9",
     "@nestjs/core": "^4.5.10",
