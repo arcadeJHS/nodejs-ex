@@ -1,6 +1,7 @@
 import { HttpCode, Get, Controller } from '@nestjs/common';
+import { ROUTE_READINESS } from './routes';
 
-@Controller('pagecount')
+@Controller(ROUTE_READINESS)
 export class ReadinessController {
   @HttpCode(200)
   @Get()
